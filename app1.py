@@ -25,7 +25,7 @@ def main():
 	st.image("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg?crop=1.00xw:0.752xh;0,0.0601xh&resize=768:*")
 
 	with overview:
-		st.title("???")
+		st.title("Zajecia5 - s20479")
 
 	with left:
 		sex_radio = st.radio( "Płeć", list(sex_d.keys()), format_func=lambda x : sex_d[x] )
